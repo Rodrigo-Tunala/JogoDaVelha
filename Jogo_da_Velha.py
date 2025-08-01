@@ -236,7 +236,10 @@ while rodando:
                             jogador_o += 1
                             pygame.time.delay(2000)
                             pygame.event.clear()
-                            tabuleiro = [['', '', ''], ['', '', ''], ['', '', '']]                            
+                            tabuleiro = [['', '', ''],
+                                         ['', '', ''],
+                                         ['', '','']]
+                                   
                             jogador_atual = 'X'                            
                             continue
 
@@ -245,7 +248,9 @@ while rodando:
                             empate += 1
                             pygame.time.delay(2000)
                             pygame.event.clear()
-                            tabuleiro = [['', '', ''], ['', '', ''], ['', '', '']]
+                            tabuleiro = [['', '', ''],
+                                         ['', '', ''],
+                                         ['', '', '']]
                             jogador_atual = 'X'
                             continue
                                 
